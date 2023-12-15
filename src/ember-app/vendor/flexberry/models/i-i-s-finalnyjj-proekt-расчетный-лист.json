@@ -1,0 +1,162 @@
+﻿{
+  "name": "IISFinalnyjjProektРасчетныйЛист",
+  "modelName": "i-i-s-finalnyjj-proekt-расчетный-лист",
+  "className": "РасчетныйЛист",
+  "nameSpace": "IIS.FinalnyjjProekt",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "дата",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": true,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "отправлено",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "false",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сотрудники",
+      "relatedTo": "i-i-s-finalnyjj-proekt-сотрудники",
+      "inverse": null
+    }
+  ],
+  "hasMany": [
+    {
+      "name": "составРасчета",
+      "relatedTo": "i-i-s-finalnyjj-proekt-состав-расчета",
+      "inverse": "расчетныйЛист"
+    }
+  ],
+  "projections": [
+    {
+      "name": "РасчетныйЛистE",
+      "modelName": "i-i-s-finalnyjj-proekt-расчетный-лист",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата составления",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "отправлено",
+          "caption": "Отправлено",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Сотрудники",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-finalnyjj-proekt-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": [
+        {
+          "projectionName": "СоставРасчетаE",
+          "caption": "Состав расчета",
+          "name": "составРасчета",
+          "relatedTo": "i-i-s-finalnyjj-proekt-состав-расчета",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "РасчетныйЛистL",
+      "modelName": "i-i-s-finalnyjj-proekt-расчетный-лист",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "дата",
+          "caption": "Дата",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "отправлено",
+          "caption": "Отправлено",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудники",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "сотрудники",
+          "relatedTo": "i-i-s-finalnyjj-proekt-сотрудники",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnyjj-proekt-сотрудники-e",
+  "editForm": "i-i-s-finalnyjj-proekt-сотрудники-e",
+  "external": false,
+  "caption": "Сотрудники",
+  "name": "IISFinalnyjjProektСотрудникиL",
+  "className": "СотрудникиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnyjj-proekt-сотрудники",
+      "modelProjection": "СотрудникиL"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Модуль КЭДО",
+  "applicationTitle": "Finalnyjj proekt",
+  "items": [
+    {
+      "link": null,
+      "menuName": "кадровые-документы",
+      "caption": "Кадровые_документы",
+      "title": "Кадровые_документы",
+      "children": [
+        {
+          "link": "i-i-s-finalnyjj-proekt-графики-отпуска-l",
+          "menuName": null,
+          "caption": "Графики отпуска",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-согласие-на-опд-l",
+          "menuName": null,
+          "caption": "Согласие на опд",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-расчетный-лист-l",
+          "menuName": null,
+          "caption": "Расчетный лист",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-организации-l",
+          "menuName": null,
+          "caption": "Организации",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-finalnyjj-proekt-отделы-l",
+          "menuName": null,
+          "caption": "Отделы",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

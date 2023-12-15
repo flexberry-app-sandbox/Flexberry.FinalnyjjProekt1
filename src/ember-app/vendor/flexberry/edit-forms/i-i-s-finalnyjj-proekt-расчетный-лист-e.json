@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Расчетный лист",
+  "name": "IISFinalnyjjProektРасчетныйЛистE",
+  "className": "РасчетныйЛистE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnyjj-proekt-расчетный-лист",
+      "modelProjection": "РасчетныйЛистE"
+    }
+  ]
+}

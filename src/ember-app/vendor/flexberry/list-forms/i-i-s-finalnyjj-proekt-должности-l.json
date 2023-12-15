@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-finalnyjj-proekt-должности-e",
+  "editForm": "i-i-s-finalnyjj-proekt-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISFinalnyjjProektДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-finalnyjj-proekt-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

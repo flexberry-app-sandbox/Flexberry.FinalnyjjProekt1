@@ -1,0 +1,1 @@
+docker-compose -p finalnyjjproekt-java down
